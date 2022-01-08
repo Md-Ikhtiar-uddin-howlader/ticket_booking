@@ -18,20 +18,27 @@
     <div class="destination-details">
         <div class="destination-left">
             <img src="/img/destination.png">
-            <div>1200RM</div>
-            <div>1000RM</div>
+            <div id="price">188RM</div>
         </div>
         <div class="destination-right">
             <p>Sabah Ba Ini! Lankayan Island Dive Resort: 2 Days
                 1 Night in Sandakan, Sabah</p>
                 <form action="">
-                    <input type="date" name="" id="date">
-                    <section>
-                        <option value=""></option>
+                    <input type="date" name="" id="date"><br>
+                    <select id="place">
+                        <option value="1">2 DAYS 1 NIGHT SPECIAL KUALA LUMPUR TOUR PACKAGES</option>
+                        <option value="2">SPECIAL PACKAGES AT ESCAPE PENANG</option>
+                        <option value="3">1 DAY AT A'FAMOSA SAFARI WONDERLAND IN MELAKA.</option>
+                        <option value="4">2 DAYS 1 NIGHT AT RESORT WORLD GENTING</option>
+                        <option value="5">3 DAYS 2 NIGHTS PACKAGES</option>
+                        <option value="6">2 DAYS 1 NIGHT DEAL 5 STAR RESORT BINTANG</option>
+                    </select><br>
                         <label for="">Quantity</label><br>
-                        <input type="number" name="" id="quantity-adult" placeholder="adult">
-                        <input type="number" name="" id="quantity-child" placeholder="child">
-                    </section>
+                        <input type="number" name="" id="quantity-adult" placeholder="adult" style="width:45%">
+                        <input type="number" name="" id="quantity-child" placeholder="child" style="width:45%"><br>
+                        <p id="eAdult" style="width: 46%; display: inline-block"></p>
+                        <p id="eChild" style="width: 45%; display: inline-block"></p>
+                    
                 </form>
         </div>
     </div>
@@ -46,20 +53,28 @@
         <p id="eFname" style="width: 46%; display: inline-block"></p>
         <p id="eLname" style="width: 45%; display: inline-block"></p>
         <br>
-        <input type="email" name="" id="email" placeholder="Email" style="width:91%"><br><br>
-        <p id="eEmail"></p>
+        <input type="email" name="" id="email" placeholder="Email" style="width:91%">
+        <p id="eEmail" style="width: 90%; display: inline-block"></p>
         <input type="text" name="" id="number" placeholder="Number" style="width:45%">
         <input type="text" name="" id="icNumber" placeholder="IC/Passport Number" style="width:45%">
+        <p id="eNumber" style="width: 46%; display: inline-block"></p>
+        <p id="eIcNumber" style="width: 45%; display: inline-block"></p>
         </form>
     </div>
 
     <div class="c-info">
         <form action="">
-        <label for="">Payment Details</label><br>
-        <input type="text" name="" id="name" placeholder="Name" style="width:91%"><br><br>
-        <input type="text" name="" id="cardNumber" placeholder="Card Number"style="width:91%"><br><br>
+        <label for="">Payment Details</label><br><br>
+        <input type="text" name="" id="name" placeholder="Name" style="width:91%">
+        <p id="eName" style="width: 90%; display: inline-block"></p>
+        <br><br>
+        <input type="text" name="" id="cardNumber" placeholder="Card Number"style="width:91%">
+        <p id="eCardNumber" style="width: 90%; display: inline-block"></p>
+        <br><br>
         <input type="text" name="" id="expireDate" placeholder="Expire Date"style="width:45%">
         <input type="text" name="" id="cvv" placeholder="CVV"style="width:45%">
+        <p id="eExpireDate" style="width: 46%; display: inline-block"></p>
+        <p id="eCvv" style="width: 45%; display: inline-block"></p>
         </form>
     </div>
         <div class="button">
